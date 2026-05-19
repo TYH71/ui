@@ -8,6 +8,7 @@ interface Organization {
   alt: string;
   url: string;
   utm: Record<string, any>;
+  className?: string;
 }
 
 interface TrustedByProps {
@@ -36,6 +37,18 @@ const organizations: Organization[] = [
       utm_medium: "referral",
       utm_campaign: "8sl_ui_trusted_by"
     }
+  },
+  {
+    name: "Formo",
+    logo: "/svgs/formo_logo.svg",
+    alt: "Formo Logo",
+    url: "https://formo.so",
+    utm: {
+      utm_source: "ui.8starlabs.com",
+      utm_medium: "referral",
+      utm_campaign: "8sl_ui_trusted_by"
+    },
+    className: "scale-75"
   }
   // Add more Organization here later
 ];
@@ -59,7 +72,7 @@ const TrustedBy = ({ className }: TrustedByProps) => {
               alt={organization.alt}
               width={180}
               height={50}
-              className="grayscale dark:invert hover:grayscale-0 transition-all duration-300"
+              className={`grayscale brightness-0 dark:invert opacity-80 group-hover:grayscale-0 group-hover:brightness-100 group-hover:opacity-100 dark:group-hover:invert-0 transition-all duration-300 ${organization.className || ""}`}
             />
           </Link>
         ))}
