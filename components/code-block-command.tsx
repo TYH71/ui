@@ -39,7 +39,7 @@ export function CodeBlockCommand({
     }
   }, [hasCopied]);
 
-  const packageManager = config.packageManager || "npm";
+  const packageManager = config.packageManager || "pnpm";
   const tabs = React.useMemo(() => {
     return {
       npm: __npm__,

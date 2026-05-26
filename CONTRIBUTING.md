@@ -34,7 +34,7 @@ This helps avoid duplicate work and ensures your contribution aligns with the pr
 
 This repository is a monorepo.
 
-- We use [npm](https://npmjs.com) for development.
+- We use [pnpm](https://pnpm.io) for development.
 
 ## Getting Started
 
@@ -59,7 +59,7 @@ This repository is a monorepo.
 4. **Install Dependencies**
 
    ```bash
-   npm install
+   pnpm install
    ```
 
 5. **Set up linting and formatting in VS Code**
@@ -91,9 +91,9 @@ This repository is a monorepo.
    - Test your components thoroughly
 
 4. **Update the Registry**
-   After developing or updating any registry items (such as blocks or examples), update the root `registry.json` and run `npm run registry:build` to ensure the registry is up to date and your changes can be installed properly.
+   After developing or updating any registry items (such as blocks or examples), update the root `registry.json` and run `pnpm registry:build` to ensure the registry is up to date and your changes can be installed properly.
 
-   If you’ve added a new registry item, please also run `npm run registry:generate-index` to update the `__index__.tsx` file.
+   If you’ve added a new registry item, please also run `pnpm registry:generate-index` to update the `__index__.tsx` file.
 
 5. **Commit Guidelines**
    We follow conventional commit messages:
@@ -127,7 +127,7 @@ Please include:
 ```
 registry/8starlabs-ui/
 ├── blocks/          # Components to be added to registry
-└── ui/              # Components that are installed via `npx shadcn@latest` commmand
+└── ui/              # Components that are installed via `pnpm dlx shadcn@latest` command
 ```
 
 ## Pull Request Process

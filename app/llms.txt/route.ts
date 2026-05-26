@@ -90,7 +90,7 @@ export async function GET() {
     `- Repository: ${siteConfig.links.github}`,
     `- Docs Home: ${toAbsoluteUrl("/docs")}`,
     `- Components Index: ${toAbsoluteUrl("/docs/components")}`,
-    "- Install Command: npx shadcn@latest add https://ui.8starlabs.com/r/status-indicator.json",
+    "- Install Command: pnpm dlx shadcn@latest add https://ui.8starlabs.com/r/status-indicator.json",
     "",
     ...sectionBlocks,
     "## Machine-Readable Sources",
