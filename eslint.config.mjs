@@ -1,18 +1,17 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname
-});
+import nextVitals from "eslint-config-next/core-web-vitals";
+import prettierConfig from "eslint-config-prettier";
+import prettierPlugin from "eslint-plugin-prettier";
 
 export default [
-  ...compat.config({
-    extends: ["next/core-web-vitals", "prettier"],
-    plugins: ["prettier"],
+  {
+    ignores: [".source/**", ".pnpm-store/**"]
+  },
+  ...nextVitals,
+  prettierConfig,
+  {
+    plugins: {
+      prettier: prettierPlugin
+    },
     rules: {
       "import/no-extraneous-dependencies": 0,
       "import/prefer-default-export": 0,
@@ -26,7 +25,9 @@ export default [
       "no-param-reassign": ["error", { props: false }],
       "no-console": 0,
       "prettier/prettier": 1,
+      "react-hooks/purity": 0,
+      "react-hooks/set-state-in-effect": 0,
       "react/display-name": ["off"]
     }
-  })
+  }
 ];

@@ -41,14 +41,18 @@ const CommandMenu = ({ tree, ...props }: { tree: typeof source.pageTree }) => {
     null
   );
   const [copyPayload, setCopyPayload] = useState("");
-  const packageManager = config.packageManager || "npm";
+  const packageManager = config.packageManager || "pnpm";
 
   const handlePageHighlight = useCallback(
     (isComponent: boolean, item: { url: string; name?: React.ReactNode }) => {
       if (isComponent) {
         const componentName = item.url.split("/").pop();
         setSelectedType("component");
-        setCopyPayload(`npx shadcn@latest add @8starlabs-ui/${componentName}`);
+        setCopyPayload(
+          componentName
+            ? getShadcnAddCommand(packageManager, componentName)
+            : ""
+        );
       } else {
         setSelectedType("page");
         setCopyPayload("");
@@ -280,6 +284,25 @@ function CommandMenuItem({
       {children}
     </CommandItem>
   );
+}
+
+function getShadcnAddCommand(
+  packageManager: "npm" | "pnpm" | "yarn" | "bun",
+  componentName: string
+) {
+  const packageName = `@8starlabs-ui/${componentName}`;
+
+  switch (packageManager) {
+    case "pnpm":
+      return `pnpm dlx shadcn@latest add ${packageName}`;
+    case "yarn":
+      return `yarn dlx shadcn@latest add ${packageName}`;
+    case "bun":
+      return `bunx --bun shadcn@latest add ${packageName}`;
+    case "npm":
+    default:
+      return `npx shadcn@latest add ${packageName}`;
+  }
 }
 
 function CommandMenuKbd({ className, ...props }: React.ComponentProps<"kbd">) {

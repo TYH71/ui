@@ -9,7 +9,7 @@ The library integrates seamlessly with Next.js projects using shadcn/ui and prov
 ## Installation
 
 ```bash
-npx shadcn@latest add https://ui.8starlabs.com/r/status-indicator.json
+pnpm dlx shadcn@latest add https://ui.8starlabs.com/r/status-indicator.json
 ```
 
 All available components can be found [here](https://ui.8starlabs.com/docs/components).
@@ -19,7 +19,7 @@ All available components can be found [here](https://ui.8starlabs.com/docs/compo
 Before using 8starlabs UI, ensure your Next.js project meets these requirements:
 
 - Node.js 18 or later
-- shadcn/ui initialized in your project `npx shadcn@latest init`
+- shadcn/ui initialized in your project `pnpm dlx shadcn@latest init`
 - Tailwind CSS configured
 
 ## Contributing
