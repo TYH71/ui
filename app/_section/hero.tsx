@@ -1,6 +1,9 @@
 "use client";
 import { Badge } from "@/registry/8starlabs-ui/ui/badge";
-import { Icons } from "@/components/icons";
+import {
+  EslUiLogoDarkPrimaryIcon,
+  EslUiLogoLightPrimaryIcon
+} from "@/components/icons";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
@@ -23,12 +26,12 @@ const Hero = ({ className }: HeroProps) => {
 
   const logo = mounted ? (
     effectiveTheme === "dark" ? (
-      <Icons.eslUiLogoDarkPrimary className="w-auto h-8 md:h-16" />
+      <EslUiLogoDarkPrimaryIcon className="w-auto h-8 md:h-16" />
     ) : (
-      <Icons.eslUiLogoLightPrimary className="w-auto h-8 md:h-16" />
+      <EslUiLogoLightPrimaryIcon className="w-auto h-8 md:h-16" />
     )
   ) : (
-    <Icons.eslUiLogoLightPrimary className="w-auto h-8 md:h-16" />
+    <EslUiLogoLightPrimaryIcon className="w-auto h-8 md:h-16" />
   );
 
   return (

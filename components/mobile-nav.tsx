@@ -12,7 +12,10 @@ import {
   PopoverContent,
   PopoverTrigger
 } from "@/registry/8starlabs-ui/ui/popover";
-import { Icons } from "@/components/icons";
+import {
+  EslLogoDarkSecondaryIcon,
+  EslLogoLightSecondaryIcon
+} from "@/components/icons";
 import { useTheme } from "next-themes";
 import { PAGES_NEW } from "@/lib/docs";
 
@@ -59,9 +62,9 @@ export function MobileNav({
           </div>
           <span className="flex h-8 items-center text-lg leading-none font-medium">
             {resolvedTheme === "dark" ? (
-              <Icons.eslLogoDarkSecondary className="size-8" />
+              <EslLogoDarkSecondaryIcon className="size-8" />
             ) : (
-              <Icons.eslLogoLightSecondary className="size-8" />
+              <EslLogoLightSecondaryIcon className="size-8" />
             )}
           </span>
         </Button>
