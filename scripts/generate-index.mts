@@ -58,7 +58,10 @@ let indexEntries = "";
 
 for (const { name, importPath, filePath, type, target } of allComponents) {
   const varName = `${name.replace(/[^a-zA-Z0-9]/g, "_")}_component`;
-  imports += `import ${varName} from "${importPath}";\n`;
+  imports +=
+    name === "button"
+      ? `import { Button as ${varName} } from "${importPath}";\n`
+      : `import ${varName} from "${importPath}";\n`;
   indexEntries += `    "${name}": {
       name: "${name}",
       type: "${type}",

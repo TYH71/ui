@@ -4,7 +4,12 @@
   "type": "registry:example",
   "title": "JSON Viewer Features",
   "description": "A JSON viewer demo showcasing features like line numbers, color indentation, and truncation",
-  "registryDependencies": ["button", "input", "label", "dropdown"],
+  "registryDependencies": [
+    "https://ui.8starlabs.com/r/button.json",
+    "input",
+    "label",
+    "dropdown"
+  ],
   "files": [
     {
       "path": "registry/8starlabs-ui/examples/json-viewer-features-demo.tsx",

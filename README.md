@@ -16,6 +16,20 @@ All available components can be found [here](https://ui.8starlabs.com/docs/compo
 
 Installed components are added under `components/8starlabs-ui` by default.
 
+## MCP
+
+8StarLabs UI can be used with AI coding assistants through the shadcn MCP server. Add the registry to your project's `components.json`:
+
+```json
+{
+  "registries": {
+    "@8starlabs": "https://ui.8starlabs.com/r/{name}.json"
+  }
+}
+```
+
+Then configure the shadcn MCP server in Claude, Codex, Cursor, VS Code, or another MCP client. See the [MCP guide](https://ui.8starlabs.com/docs/mcp) for client-specific setup.
+
 ## Prerequisites
 
 Before using 8starlabs UI, ensure your Next.js project meets these requirements:
