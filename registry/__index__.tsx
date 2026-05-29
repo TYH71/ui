@@ -55,7 +55,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/flip-clock.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/flip-clock.tsx"
       }],
       component: flip_clock_component
     },
@@ -65,7 +65,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/heatmap.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/heatmap.tsx"
       }],
       component: heatmap_component
     },
@@ -75,7 +75,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/json-viewer.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/json-viewer.tsx"
       }],
       component: json_viewer_component
     },
@@ -85,7 +85,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/marquee.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/marquee.tsx"
       }],
       component: marquee_component
     },
@@ -95,7 +95,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/partition-bar.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/partition-bar.tsx"
       }],
       component: partition_bar_component
     },
@@ -105,7 +105,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/scroll-fade.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/scroll-fade.tsx"
       }],
       component: scroll_fade_component
     },
@@ -115,7 +115,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/status-indicator.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/status-indicator.tsx"
       }],
       component: status_indicator_component
     },
@@ -125,7 +125,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/system-banner.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/system-banner.tsx"
       }],
       component: system_banner_component
     },
@@ -135,7 +135,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/timeline.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/timeline.tsx"
       }],
       component: timeline_component
     },
@@ -145,7 +145,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/transport-badge.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/transport-badge.tsx"
       }],
       component: transport_badge_component
     },
@@ -155,7 +155,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/flip-clock-countdown-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/flip-clock-countdown-demo.tsx"
       }],
       component: flip_clock_countdown_demo_component
     },
@@ -165,7 +165,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/flip-clock-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/flip-clock-demo.tsx"
       }],
       component: flip_clock_demo_component
     },
@@ -175,7 +175,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/flip-clock-showdays-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/flip-clock-showdays-demo.tsx"
       }],
       component: flip_clock_showdays_demo_component
     },
@@ -185,7 +185,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/flip-clock-size-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/flip-clock-size-demo.tsx"
       }],
       component: flip_clock_size_demo_component
     },
@@ -195,7 +195,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/flip-clock-variants-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/flip-clock-variants-demo.tsx"
       }],
       component: flip_clock_variants_demo_component
     },
@@ -205,7 +205,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-custom-colors-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-custom-colors-demo.tsx"
       }],
       component: heatmap_custom_colors_demo_component
     },
@@ -215,7 +215,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-custom-display-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-custom-display-demo.tsx"
       }],
       component: heatmap_custom_display_demo_component
     },
@@ -225,7 +225,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-days-of-week-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-days-of-week-demo.tsx"
       }],
       component: heatmap_days_of_week_demo_component
     },
@@ -235,7 +235,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-demo.tsx"
       }],
       component: heatmap_demo_component
     },
@@ -245,7 +245,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-display-style-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-display-style-demo.tsx"
       }],
       component: heatmap_display_style_demo_component
     },
@@ -255,7 +255,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-interpolate-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-interpolate-demo.tsx"
       }],
       component: heatmap_interpolate_demo_component
     },
@@ -265,7 +265,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/heatmap-size-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/heatmap-size-demo.tsx"
       }],
       component: heatmap_size_demo_component
     },
@@ -275,7 +275,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/json-viewer-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/json-viewer-demo.tsx"
       }],
       component: json_viewer_demo_component
     },
@@ -285,7 +285,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/json-viewer-features-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/json-viewer-features-demo.tsx"
       }],
       component: json_viewer_features_demo_component
     },
@@ -295,7 +295,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/marquee-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/marquee-demo.tsx"
       }],
       component: marquee_demo_component
     },
@@ -305,7 +305,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/marquee-grayscale-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/marquee-grayscale-demo.tsx"
       }],
       component: marquee_grayscale_demo_component
     },
@@ -315,7 +315,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/marquee-greyscale-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/marquee-greyscale-demo.tsx"
       }],
       component: marquee_greyscale_demo_component
     },
@@ -325,7 +325,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/marquee-reverse-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/marquee-reverse-demo.tsx"
       }],
       component: marquee_reverse_demo_component
     },
@@ -335,7 +335,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-alignment-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-alignment-demo.tsx"
       }],
       component: partition_bar_alignment_demo_component
     },
@@ -345,7 +345,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-custom-colours-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-custom-colours-demo.tsx"
       }],
       component: partition_bar_custom_colours_demo_component
     },
@@ -355,7 +355,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-demo.tsx"
       }],
       component: partition_bar_demo_component
     },
@@ -365,7 +365,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-size-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-size-demo.tsx"
       }],
       component: partition_bar_size_demo_component
     },
@@ -375,7 +375,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-variants-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-variants-demo.tsx"
       }],
       component: partition_bar_variants_demo_component
     },
@@ -385,7 +385,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/partition-bar-width-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/partition-bar-width-demo.tsx"
       }],
       component: partition_bar_width_demo_component
     },
@@ -395,7 +395,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/scroll-fade-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/scroll-fade-demo.tsx"
       }],
       component: scroll_fade_demo_component
     },
@@ -405,7 +405,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/status-indicator-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/status-indicator-demo.tsx"
       }],
       component: status_indicator_demo_component
     },
@@ -415,7 +415,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/timeline-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/timeline-demo.tsx"
       }],
       component: timeline_demo_component
     },
@@ -425,7 +425,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/timeline-hollow-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/timeline-hollow-demo.tsx"
       }],
       component: timeline_hollow_demo_component
     },
@@ -435,7 +435,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/timeline-nocards-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/timeline-nocards-demo.tsx"
       }],
       component: timeline_nocards_demo_component
     },
@@ -445,7 +445,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/timeline-not-alternating-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/timeline-not-alternating-demo.tsx"
       }],
       component: timeline_not_alternating_demo_component
     },
@@ -455,7 +455,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/timeline-vertical-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/timeline-vertical-demo.tsx"
       }],
       component: timeline_vertical_demo_component
     },
@@ -465,7 +465,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo-hk.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo-hk.tsx"
       }],
       component: transport_badge_demo_hk_component
     },
@@ -475,7 +475,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo-multi-station.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo-multi-station.tsx"
       }],
       component: transport_badge_demo_multi_station_component
     },
@@ -485,7 +485,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo-single-station.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo-single-station.tsx"
       }],
       component: transport_badge_demo_single_station_component
     },
@@ -495,7 +495,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo-sizes.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo-sizes.tsx"
       }],
       component: transport_badge_demo_sizes_component
     },
@@ -505,7 +505,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo-station-name.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo-station-name.tsx"
       }],
       component: transport_badge_demo_station_name_component
     },
@@ -515,7 +515,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/transport-badge-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/transport-badge-demo.tsx"
       }],
       component: transport_badge_demo_component
     },

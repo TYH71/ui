@@ -14,6 +14,8 @@ pnpm dlx shadcn@latest add https://ui.8starlabs.com/r/status-indicator.json
 
 All available components can be found [here](https://ui.8starlabs.com/docs/components).
 
+Installed components are added under `components/8starlabs-ui` by default.
+
 ## Prerequisites
 
 Before using 8starlabs UI, ensure your Next.js project meets these requirements:
