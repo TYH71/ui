@@ -12,7 +12,8 @@
       "files": [
         {
           "path": "registry/8starlabs-ui/blocks/button.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "components/8starlabs-ui/button.tsx"
         }
       ]
     },
@@ -25,7 +26,8 @@
       "files": [
         {
           "path": "registry/8starlabs-ui/examples/button-demo.tsx",
-          "type": "registry:example"
+          "type": "registry:example",
+          "target": "components/8starlabs-ui/examples/button-demo.tsx"
         }
       ]
     },

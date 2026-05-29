@@ -57,7 +57,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/blocks/button.tsx",
         type: "registry:block",
-        target: ""
+        target: "components/8starlabs-ui/button.tsx"
       }],
       component: button_component
     },
@@ -167,7 +167,7 @@ export const Index: Record<string, any> = {
       files: [{
         path: "registry/8starlabs-ui/examples/button-demo.tsx",
         type: "registry:example",
-        target: ""
+        target: "components/8starlabs-ui/examples/button-demo.tsx"
       }],
       component: button_demo_component
     },
