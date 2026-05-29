@@ -10,7 +10,7 @@ export default function ProgressWrapper({
   return (
     <ProgressProvider
       height="2px"
-      color="#000"
+      color="var(--foreground)"
       options={{ showSpinner: false }}
       shallowRouting
     >
