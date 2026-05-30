@@ -2,6 +2,8 @@ import { useMemo } from "react";
 
 export function useIsMac() {
   return useMemo(() => {
-    return navigator.userAgent.includes("Mac");
+    if (typeof navigator === "undefined") return false;
+    const ua = navigator.userAgent;
+    return /Macintosh|Mac OS X/.test(ua) && !/iPhone|iPad|iPod/.test(ua);
   }, []);
 }

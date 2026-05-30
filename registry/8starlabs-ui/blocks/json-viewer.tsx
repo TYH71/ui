@@ -11,7 +11,7 @@ import {
 } from "@/registry/8starlabs-ui/ui/collapsible";
 import { Separator } from "@/registry/8starlabs-ui/ui/separator";
 import { ChevronRight } from "lucide-react";
-import { CopyButton } from "@/registry/8starlabs-ui/custom-ui/copy-button";
+import { CopyButton } from "@/registry/8starlabs-ui/ui/copy-button";
 
 interface JsonViewerProps {
   data: Record<string, any>;

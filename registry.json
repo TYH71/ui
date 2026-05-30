@@ -618,7 +618,7 @@
           "target": "components/8starlabs-ui/json-viewer.tsx"
         },
         {
-          "path": "registry/8starlabs-ui/custom-ui/copy-button.tsx",
+          "path": "registry/8starlabs-ui/ui/copy-button.tsx",
           "type": "registry:ui",
           "target": "components/8starlabs-ui/ui/copy-button.tsx"
         },
