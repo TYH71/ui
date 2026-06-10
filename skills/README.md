@@ -22,13 +22,13 @@ more detail, move overflow content into `references/`.
 Fastest path for contributors working inside this repo:
 
 1. Start at [../AGENTS.md](../AGENTS.md).
-2. Pick skill that matches task.
+2. Pick the skill that matches the task.
 3. Read that skill's `SKILL.md` first.
 4. Open `references/` only if task needs more repo-specific detail.
 5. Use `evals/evals.json` when you want realistic prompt coverage for manual
    review or iteration.
 
-Repo already contains skill definitions. This README is onboarding guide, not
+Repo already contains skill definitions. This README is an onboarding guide, not
 installation output.
 
 ## Skills
@@ -64,7 +64,7 @@ MCP documentation surfaced from that page.
 
 ## Using These Skills In Codex
 
-Codex should use same split of responsibilities:
+Codex should use the same split of responsibilities:
 
 - local repo skills in `skills/` for workflow, review rules, and repo-specific
   conventions
@@ -87,7 +87,7 @@ general pattern if they support local repo instructions or skills:
 - let it read matching `skills/<name>/SKILL.md`
 - keep `references/` and `evals/` alongside each copied skill
 
-If platform also supports MCP, configure shadcn MCP and registry access in same
+If platform also supports MCP, configure shadcn MCP and registry access in the same
 way Claude and Codex do. Exact product-specific setup may differ, so this
 README does not assume Antigravity-specific commands or config files.
 

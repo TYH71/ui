@@ -3,7 +3,7 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Write the PR description for the change that adds repo-local agent skills to 8StarLabs UI and closes issue #43.",
+      "prompt": "Write the PR description for the change that adds four repo-local agent skills to 8StarLabs UI and closes issue #43.",
       "expected_output": "Outputs only one fenced markdown block with `## Summary`, `## Key Changes`, and a closing line such as `Closes #43`.",
       "files": []
     },
